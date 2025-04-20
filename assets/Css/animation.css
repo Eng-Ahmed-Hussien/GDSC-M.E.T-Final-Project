@@ -1,0 +1,19 @@
+/*----------------------------animation  ----------------------------*/
+.about__section--cards .about__card:hover,
+.testimonial__section .testimonial__card:hover{
+  box-shadow: var(--shadow-hover) ;
+  transform: translateY(-.6rem);
+}
+.footer__links-item:hover{
+  color: var(--main-color);
+  font-weight: var(--fw-500);
+}
+.footer__links-item:hover::after{
+  transform: scale(1);
+}
+.social-icons .social-icon a i:hover{
+  scale: 1.2;
+}
+.cont__info--item .cont__icon--holder:hover{
+  transform: scale(1.16);
+}
